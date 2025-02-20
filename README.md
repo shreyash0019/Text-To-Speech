@@ -14,3 +14,19 @@ This project converts text from a file (`abc.txt`) into speech, saves it as an M
 2. Install the `gTTS` module by running the following command:
    ```bash
    pip install gTTS
+## How it works
+
+   1.The script reads the text from the abc.txt file.
+   
+   2.The Google Text-to-Speech (gTTS) module converts the text into speech.
+   
+   3.The speech is saved as an MP3 file (voice.mp3).
+   
+   4.The MP3 file is played using the system's default media player.
+
+## Contributing
+
+Feel free to fork this repository and make improvements. Pull requests are welcome!
+
+## License
+This project is licensed under the MIT License.
